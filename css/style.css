@@ -1,0 +1,351 @@
+/****** Font family css ***********/
+
+@font-face {
+	font-family: 'Open Sans';
+	src: url('../fonts/OpenSans-Extrabold.eot');
+	src: url('../fonts/OpenSans-Extrabold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/OpenSans-Extrabold.woff') format('woff'),
+		url('../fonts/OpenSans-Extrabold.ttf') format('truetype');
+	font-weight: 800;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	src: url('../fonts/OpenSansLight-Italic.eot');
+	src: url('../fonts/OpenSansLight-Italic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/OpenSansLight-Italic.woff') format('woff'),
+		url('../fonts/OpenSansLight-Italic.ttf') format('truetype');
+	font-weight: 300;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	src: url('../fonts/OpenSans-Light.eot');
+	src: url('../fonts/OpenSans-Light.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/OpenSans-Light.woff') format('woff'),
+		url('../fonts/OpenSans-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	src: url('../fonts/OpenSans-ExtraboldItalic.eot');
+	src: url('../fonts/OpenSans-ExtraboldItalic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/OpenSans-ExtraboldItalic.woff') format('woff'),
+		url('../fonts/OpenSans-ExtraboldItalic.ttf') format('truetype');
+	font-weight: 800;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	src: url('../fonts/OpenSans-BoldItalic.eot');
+	src: url('../fonts/OpenSans-BoldItalic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/OpenSans-BoldItalic.woff') format('woff'),
+		url('../fonts/OpenSans-BoldItalic.ttf') format('truetype');
+	font-weight: bold;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	src: url('../fonts/OpenSans-SemiboldItalic.eot');
+	src: url('../fonts/OpenSans-SemiboldItalic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/OpenSans-SemiboldItalic.woff') format('woff'),
+		url('../fonts/OpenSans-SemiboldItalic.ttf') format('truetype');
+	font-weight: 600;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	src: url('../fonts/OpenSans-Italic.eot');
+	src: url('../fonts/OpenSans-Italic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/OpenSans-Italic.woff') format('woff'),
+		url('../fonts/OpenSans-Italic.ttf') format('truetype');
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	src: url('../fonts/OpenSans.eot');
+	src: url('../fonts/OpenSans.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/OpenSans.woff') format('woff'),
+		url('../fonts/OpenSans.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	src: url('../fonts/OpenSans-Semibold.eot');
+	src: url('../fonts/OpenSans-Semibold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/OpenSans-Semibold.woff') format('woff'),
+		url('../fonts/OpenSans-Semibold.ttf') format('truetype');
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	src: url('../fonts/OpenSans-Bold.eot');
+	src: url('../fonts/OpenSans-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/OpenSans-Bold.woff') format('woff'),
+		url('../fonts/OpenSans-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+
+
+
+
+
+
+
+/******* Design css **************/
+
+.screen .cut_upload_logo {display: table; width: 100%; border: 1px solid #ebebeb; padding: 30px; box-sizing: border-box;
+    box-shadow: 0 0 18px 0px rgba(0,0,0,0.1);}
+
+.screen .cut_upload_logo .show_txt {    display: table-cell; vertical-align: middle; width: 49%; padding-right: 40px;}
+
+.screen .cut_upload_logo .show_txt .upload { width: auto; margin: 0;}
+
+.screen .cut_upload_logo .show_upload{width: auto;display: table-cell;vertical-align: middle;}
+
+.screen .cust_color_wrapper .app_color .select_color {width: 100%; float: left; margin: 0 0 20px 0; }
+
+.screen .cust_color_wrapper .app_color .select_color input[type="color"] { float: left;}
+
+.screen .show_upload {   width: auto;     margin: 0 20px 0 0px; }
+
+.screen .show_txt {     margin-bottom: 20px;     width: auto; }
+
+.screen p.submit {    float: left;    width: 100%;  margin: 0;}
+
+.screen form strong {  float: left;   width: 100%;   margin-bottom: 20px; }
+
+.screen .show_txt p {  margin: 3px 0 5px 0;}
+
+.screen .show_color { margin-top: 20px; float: left; width: 100%;}
+.screen .show_color p{float: left; margin-right: 10px; vertical-align: top;}
+.screen .show_color .wp-picker-container{ float: left; margin-top: 13px;}
+
+.screen img.screen_logo { border: 1px solid #ccc;  padding:3px; box-sizing: border-box;}
+
+.screen .show_color .iris-picker.iris-border { display: block !important; margin-top: 0 !important;}
+
+.screen .wp-picker-holder { float: right;}
+
+.screen .wp-color-result:after{font-size:14px !important}
+
+.screen .show_color p{font-size:14px;}
+
+.screen div#Overview p { font-size: 15px;}
+
+.screen .show_txt p { font-size: 14px;}
+
+.screen .wp-core-ui .button-primary { font-size: 14px;}
+
+.screen .nav-tab{    border-top-left-radius: 5px; border-top-right-radius: 5px; box-shadow: none !important; font-size: 15px; font-weight: bold;margin-left: 5px;}
+
+.screen .nav-tab.active { background: #f1f1f1; border-bottom: 1px solid #f1f1f1; margin-bottom: -1px;color:#000;}
+
+.screen div#Overview { float: left; width: 100%; padding: 20px; box-sizing: border-box; border: 1px solid #ccc; border-top: none;}
+
+.screen div#Settings { float: left; width: 100%; padding: 20px; border: 1px solid #ccc; border-top: none; box-sizing: border-box;}
+
+.screen div#Terms { float: left; width: 100%; padding: 20px; box-sizing: border-box; border: 1px solid #ccc; border-top: none;}
+
+.screen div#Contact { float: left; width: 100%; padding: 20px; border: 1px solid #ccc; border-top: none; box-sizing: border-box;}
+
+.screen .show_back_color p { float: left; width: auto; margin: 0 20px 0 0px; }
+
+.screen .show_back_color { margin: 30px 0 0 0; }
+
+.screen .show_font_color p { float: left;  width: auto; margin: 0 63px 0 0; }
+
+.screen .show_font_color { margin: 30px 0 0 0; }
+
+.screen .iris-picker.iris-border { display: block !important; margin: 0 !important; }
+
+.screen .load{border: 1px solid #ccc;  padding: 3px;  box-sizing: border-box;}
+
+.screen ul.feature { list-style-type: square; margin:15px; }
+
+.screen  h2.nav-tab-wrapper { margin-bottom: 0; border-bottom: 1px solid #ccc; }
+
+
+/***************** Change Design css *****************/
+
+
+.screen {float: left;width: 100%;margin: 20px 0 0 0;padding: 0 17px 0 13px;box-sizing: border-box;}
+
+.screen h2.nav-tab-wrapper { border-bottom:1px solid #cccccc;}
+
+.screen h2.nav-tab-wrapper a.nav-tab {border-radius: 3px;padding: 7px 50px;line-height: normal;font-size: 18px;font-weight: normal;background: #e3e3e3;font-family: 'Open Sans';
+    color: #969696;margin: 0 0 0 6px;transition:0.3s}
+
+.screen h2.nav-tab-wrapper a.nav-tab-active{ background: #fff; color: #606060;font-weight: 600;}
+
+.screen h2.nav-tab-wrapper a.nav-tab:hover{background: #fff; color: #606060;}
+
+.screen .overview{background: #fff;margin-top: 4px;border: 1px solid #dcdbdb !important;padding: 30px !important;}
+
+.screen div#Overview p {margin: 0;color: #606060;font-size: 18px;font-family: 'Open Sans';line-height: 30px;}
+
+.screen div#Overview h4 {color: #454444;font-size: 18px;text-transform: uppercase;font-weight: 700;font-family: 'Open Sans';margin: 35px 0 20px 0;}
+
+.screen div#Overview p {font-size: 17px;font-family: 'Open Sans';line-height: 30px;color: #606060;margin: 0;}
+
+.screen div#Overview h4 {margin:25px 0 15px 0;text-transform: uppercase;font-weight: bold;color: #454444;font-family: 'Open Sans';font-size: 18px;}
+
+.screen div#Overview ul.feature {margin: 0;padding:0 0 0 19px;list-style-type: unset;}
+
+.screen div#Overview ul.feature li {font-family: 'Open Sans';font-size: 17px;color: #606060;margin: 0 0 16px 0;}
+
+.screen div#Overview ul.feature li:last-child {margin: 0;}
+
+.nav-tab-active, .nav-tab-active:focus, .nav-tab-active:focus:active, .nav-tab-active:hover{border-bottom:none;}
+
+.screen div#Settings .setting-tab h4.nav-tab-wrapper {margin: 0;border: none !important;}
+
+.screen div#Settings .setting-tab h4.nav-tab-wrapper a.nav-section {font-size: 17px;font-weight: normal;font-family: 'Open Sans';color: #3a62ad;text-decoration: none;background: none !important;line-height: normal;padding: 0 15px 0 15px;margin: 0;position: relative;box-shadow: none;}
+
+.screen div#Settings .setting-tab h4.nav-tab-wrapper a.nav-section:first-child{padding-left:0}
+
+.screen div#Settings .setting-tab h4.nav-tab-wrapper a.nav-section:last-child{padding-right:0}
+
+.screen div#Settings .setting-tab h4.nav-tab-wrapper a.nav-section:after {content: "";position: absolute;right: 0;width: 2px;height: 70%;background: #b6b4b4;top: 0;bottom: 0;    margin: auto;}
+
+.screen div#Settings .setting-tab h4.nav-tab-wrapper a.nav-section:last-child:after{display:none;}
+
+.screen div#Settings .setting-tab h4.nav-tab-wrapper a.nav-tab-active {color: #606060;font-weight: 600;}
+
+.screen div#Settings .setting-tab {margin: 0 0 35px 0;}
+
+.screen .show_txt .upload p {margin: 0 10px 0 0;float: left;width: auto;font-size: 16px;font-weight: normal;font-family: 'Open Sans';line-height: 37px;}
+
+.screen .show_txt .upload input.screen_logo_url {height: 37px;margin: 0;padding: 0 10px;font-size: 15px;width: 34%;font-family: 'Open Sans';color: #888484;font-weight: normal;float: left;}
+
+.screen .show_txt .upload a.screen_logo_upload {height: 37px;float: left;line-height: 37px;background: #3a62ad;border: none;box-shadow: none;font-size: 17px;font-family: 'Open Sans';
+    padding: 0 20px;margin: 0 0 0 10px;}
+
+.screen .show_txt .upload {margin: 0 0 30px 0;float: left;width: 100%;}
+
+.screen .show_txt p {float: left; width: 100%; margin: 0;}
+
+.screen .show_txt p label span.description {font-size: 16px;font-family: 'Open Sans';color: #908f8f;}
+
+.screen .show_txt {margin-bottom: 10px;width: 100%;display: inline-block;}
+
+.screen .show_upload { margin: 0;width: 100%;display: inline-block;}
+
+.screen .show_upload .after { float: left;width: 166px;height: 166px;background: #e7e7e7;text-align: center;}
+
+.screen .show_upload .after img.screen_logo {border: none;padding: 0;}
+
+.screen .show_back_color p, .screen .show_font_color p {margin: 0 10px 0 0;float: left; width: auto;font-size: 16px;font-weight: normal;font-family: 'Open Sans';line-height: normal;}
+
+.screen p.submit input[type="submit"] {font-size: 20px;height: auto;background: #3a62ad;box-shadow: none;text-shadow: none;border: none;font-family: 'Open Sans';padding: 8px 30px;
+    transform: none !important; line-height: normal;border-radius: 4px;}
+
+.screen p.submit {float: left;width: 100%; margin: 60px 0 0 0; padding: 0;}
+
+.screen .category_setting .text h2 { font-size: 17px;font-family: 'Open Sans';font-weight: 600;margin: 0 0 12px 0;color: #3f3d3c;}
+
+.screen .category_setting .text { margin: 0 0 20px 0; float: left; width: 100%;}
+
+.screen .category_setting ul { float: left;width: 100%;list-style: none;}
+
+.screen .category_setting ul li .cat_viewimg img {width: 150px;}
+
+.screen .category_setting ul li:last-child {margin-right: 0;}
+
+.screen .category_setting ul li {float: left; width: 233px; text-align: center; margin: 0 15px 15px 0; border: 1px solid #bfbfbf; padding: 10px; box-sizing: border-box;transition: all 0.4s;}
+
+.screen .category_setting ul li:hover, .screen .category_setting ul li.active{ border-color: #752f67;box-shadow: 0px 4px 10px rgba(183, 183, 183, 0.9);}
+
+.screen .category_setting ul li span {font-size: 15px;font-weight: 600;font-family: 'Open Sans';}
+
+.screen .category_setting ul li span input[type="radio"] { margin: 0 0 0 5px; border: 2px solid #606060;width: 19px; height: 19px;border-radius: 100%; padding: 0 !important;box-shadow: none;}
+
+.screen .category_setting ul li .cat_viewimg {float: left;width: 100%;margin: 15px 0 0 0;}
+
+
+/********************  Product Design css ******************/
+
+.screen .product_setting .text h1 {line-height: normal; font-size: 17px; font-family: 'Open Sans'; font-weight: 600; margin: 0 0 15px 0; color: #3f3d3c; padding: 0 0 10px 0; border-bottom: 1px solid #ccc;}
+
+.screen .product_setting .text span {width: 100%; float: left; margin: 0 0 15px 0; font-size: 15px; font-weight: 600; font-family: 'Open Sans'; }
+
+.screen .product_setting .text span input[type="radio"] {margin: 0 0 0 5px; border: 2px solid #606060; width: 19px; height: 19px; border-radius: 100%; padding: 0 !important; box-shadow: none; }
+
+.screen .product_setting .text h2 {margin: 0px 0 40px 0; float: left; width: 100%; padding: 20px 0 0 0; border-top: 1px solid #ccc; font-size: 17px; font-family: 'Open Sans'; font-weight: 600 !important; color: #3f3d3c; }
+
+.screen .product_setting .text { float: left; width: 100%;}
+
+.screen .product_setting ul.list {float: left; width: 100%; margin: 0; }
+
+.screen .product_setting ul.list li {float: left; width: 233px; text-align: center; margin: 0 15px 15px 0; border: 1px solid #bfbfbf; padding: 10px; box-sizing: border-box; transition: all 0.4s; }
+
+.screen .product_setting ul.list li:hover,.screen .product_setting ul.list li.active{border-color: #752f67;box-shadow: 0px 4px 10px rgba(183, 183, 183, 0.9);}
+
+.screen .product_setting ul.list li span {font-size: 15px; font-weight: 600; font-family: 'Open Sans'; }
+
+.screen .product_setting ul.list li span input[type="radio"] {margin: 0 0 0 5px; border: 2px solid #606060; width: 19px; height: 19px; border-radius: 100%; padding: 0 !important; box-shadow: none; }
+
+.screen .product_setting ul.list li .product_img {float: left; width: 100%; margin: 15px 0 0 0; }
+
+.screen .product_setting ul.list li .product_img img {width: 150px; }
+
+
+/********** Backround color changes *******************/
+
+.screen .cust_color_wrapper {float: left; width: 100%; margin: 40px 0 0 0; padding: 30px; box-sizing: border-box; border:1px solid #efefef; box-shadow: 0 0 18px 0px rgba(0,0,0,0.1); }
+
+.screen .cust_color_wrapper .app_color {float: left; margin:0 0 20px 0; width: 33.3%; padding: 10px; box-sizing: border-box;    border: 1px solid #ededed; text-align: center;}
+
+.screen .cust_color_wrapper .app_color:last-child{margin-bottom: 0;}
+
+.screen .cust_color_wrapper .app_color p {width: 100%; margin: 0 0 20px 0; text-align: center; height: 40px;}
+
+.screen .cust_color_wrapper .app_color input[type="color"] { width:45%;height: 40px;cursor: pointer;}
+
+.screen .cust_color_wrapper .app-color-img img {width: 150px;}
+
+.screen .cust_color_wrapper .app-color-img {margin: 20px 0 0 0;}
+
+.screen .cust_color_wrapper .app_color .select_color {width: 100%; float: left; margin: 0 0 20px 0; text-align: center; padding: 0; box-sizing: border-box; }
+
+.screen .cust_color_wrapper .app_color .select_color input[type="color"] {float: left;margin: 0;height: 30px;}
+
+.screen .cust_color_wrapper .app_color .select_color .cust_color {float: left; width: auto; height: 30px; line-height: 30px; padding: 0 10px; box-sizing: border-box; background: #3a62ad; color: #fff; font-size: 14px; text-transform: uppercase; margin: 0; cursor: pointer; font-weight: 600; letter-spacing: 0.5px;}
+
+.screen .cust_color_wrapper .app_color .select_color .cust_input {float: none; display: inline-block; width: 240px;}
+
+.screen .category_setting {border: 1px solid #ebebeb; padding: 30px; box-sizing: border-box; box-shadow: 0 0 18px 0px rgba(0,0,0,0.1); float: left; width: 100%; }
+
+.screen .product_setting {border: 1px solid #ebebeb; padding: 30px; box-sizing: border-box; box-shadow: 0 0 18px 0px rgba(0,0,0,0.1); float: left; width: 100%; }
+
+
+
+
+/********* Responsive Design css *******************/
+
+@media (max-width: 1100px){
+
+.screen .cust_color_wrapper .app_color{width: 50%;}
+
+}
+
+@media (max-width: 680px){
+
+.screen .cust_color_wrapper .app_color { width:100%;}
+
+}
